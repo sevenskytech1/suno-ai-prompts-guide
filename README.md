@@ -178,17 +178,11 @@ heartbreak piano pop ballad, 72 BPM, intimate felt piano, breathy alto female vo
 
 The poor prompt is directionless. The improved prompt adds basic parameters. The professional prompt creates a complete musical vision: tempo with BPM, piano type with texture, vocal range and delivery, dynamic progression, string arrangement detail, production character, and a specific ending. Suno now has a blueprint rather than a vague suggestion.
 
-**🚀 Want 25,000+ Ready-to-Use Prompts?** Skip the guesswork with the [Suno AI Prompts Library](https://sevensky.gumroad.com/) — a massive collection of 25,000+ AI music prompts covering every genre, mood, and style imaginable. Perfect for creators who want instant inspiration.
+### 🎵 Supercharge Your Suno AI Workflow
 
----
+**[Suno AI Prompts Library](https://sevensky.gumroad.com/)** — Get instant access to **25,000+ ready-to-use AI music prompts, 200+ genres** spanning every genre, mood, and production style. Stop guessing and start creating professional-quality tracks in seconds.
 
-### 🎵 Supercharge Your Suno Workflow
-
-**[Suno AI Prompts Library](https://sevensky.gumroad.com/)** — Get instant access to **25,000+ ready-to-use AI music prompts** spanning every genre, mood, and production style. Stop guessing and start creating professional-quality tracks in seconds.
-
-[📥 Grab the Library →](https://sevensky.gumroad.com/)
-
----
+[📥 Grab the Suno AI Prompts List PDF Library →](https://sevensky.gumroad.com/)
 
 ## 50 Suno AI Prompt Examples
 
