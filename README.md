@@ -1,6 +1,8 @@
 # Suno AI Prompts: 50 Examples & Complete Guide to Create Better AI Music
 
-Most people open Suno, type "make a sad pop song," and wonder why the result sounds generic. Writing effective **suno ai prompts** is a skill that blends creative direction with technical precision. This **suno ai prompts guide** will teach you the exact framework, vocabulary, and strategies to consistently generate music that matches your vision. Whether you want lo-fi beats for studying, cinematic scores for film, or a hyper-specific indie rock track about a robot cat, you will learn how to tell Suno exactly what you want. We cover 50 copy-paste examples, reusable templates, metatags, negative prompting, and the common mistakes beginners make. Let's turn your musical ideas into polished tracks.
+Most people open Suno, type "make a sad pop song," and wonder why the result sounds generic. Writing effective **suno ai prompts** is a skill that blends creative direction with technical precision. This **suno ai prompts guide** will teach you the exact framework, vocabulary, and strategies to consistently generate music that matches your vision. 
+
+Whether you want lo-fi beats for studying, cinematic scores for film, or a hyper-specific indie rock track about a robot cat, you will learn how to tell Suno exactly what you want. We cover 50 copy-paste examples, reusable templates, metatags, negative prompting, and the common mistakes beginners make. Let's turn your musical ideas into polished tracks.
 
 ## Table of Contents
 
@@ -177,6 +179,16 @@ heartbreak piano pop ballad, 72 BPM, intimate felt piano, breathy alto female vo
 The poor prompt is directionless. The improved prompt adds basic parameters. The professional prompt creates a complete musical vision: tempo with BPM, piano type with texture, vocal range and delivery, dynamic progression, string arrangement detail, production character, and a specific ending. Suno now has a blueprint rather than a vague suggestion.
 
 **🚀 Want 25,000+ Ready-to-Use Prompts?** Skip the guesswork with the [Suno AI Prompts Library](https://sevensky.gumroad.com/) — a massive collection of 25,000+ AI music prompts covering every genre, mood, and style imaginable. Perfect for creators who want instant inspiration.
+
+---
+
+### 🎵 Supercharge Your Suno Workflow
+
+**[Suno AI Prompts Library](https://sevensky.gumroad.com/)** — Get instant access to **25,000+ ready-to-use AI music prompts** spanning every genre, mood, and production style. Stop guessing and start creating professional-quality tracks in seconds.
+
+[📥 Grab the Library →](https://sevensky.gumroad.com/)
+
+---
 
 ## 50 Suno AI Prompt Examples
 
