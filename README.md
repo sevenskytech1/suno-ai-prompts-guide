@@ -1,10 +1,6 @@
-# Suno AI Prompts: 100 Examples & Complete Guide to Create Better AI Music
+# Suno AI Prompts: 50 Examples & Complete Guide to Create Better AI Music
 
-Generating exceptional AI music requires more than just typing a generic genre into a text box. To consistently get tracks that match your creative vision, you need a strategic approach to prompting. If you have ever been frustrated by chaotic arrangements, distorted vocals, or generic loops, mastering a structured **suno ai prompts guide** will fundamentally change your production workflow.
-
-Many beginners make the mistake of using vague descriptions like "good pop song" or trying to name specific mainstream artists, which Suno's system explicitly blocks or ignores for copyright reasons. In this comprehensive guide, you will learn how to break down your musical ideas into concrete elements that the AI engine understands. We will cover the mechanics of Custom Mode, analyze the perfect prompt formula, explore a library of 100 copy-paste examples, and dissect hidden metatags to help format your song structures cleanly.
-
----
+Most people open Suno, type "make a sad pop song," and wonder why the result sounds generic. Writing effective **suno ai prompts** is a skill that blends creative direction with technical precision. This **suno ai prompts guide** will teach you the exact framework, vocabulary, and strategies to consistently generate music that matches your vision. Whether you want lo-fi beats for studying, cinematic scores for film, or a hyper-specific indie rock track about a robot cat, you will learn how to tell Suno exactly what you want. We cover 50 copy-paste examples, reusable templates, metatags, negative prompting, and the common mistakes beginners make. Let's turn your musical ideas into polished tracks.
 
 ## Table of Contents
 
@@ -12,8 +8,8 @@ Many beginners make the mistake of using vague descriptions like "good pop song"
 - [Why Good Prompts Create Better Music](#why-good-prompts-create-better-music)
 - [The Perfect Suno AI Prompt Formula](#the-perfect-suno-ai-prompt-formula)
 - [Every Prompt Component Explained](#every-prompt-component-explained)
-- [Prompt Anatomy](#prompt-anatomy)
-- [100 Suno AI Prompt Examples](#100-suno-ai-prompt-examples)
+- [Prompt Anatomy: From Poor to Professional](#prompt-anatomy-from-poor-to-professional)
+- [50 Suno AI Prompt Examples](#50-suno-ai-prompt-examples)
 - [Reusable Prompt Templates](#reusable-prompt-templates)
 - [Prompt Modifier Library](#prompt-modifier-library)
 - [Metatags Explained](#metatags-explained)
@@ -25,327 +21,538 @@ Many beginners make the mistake of using vague descriptions like "good pop song"
 - [FAQ](#faq)
 - [Conclusion](#conclusion)
 
----
-
 ## What Are Suno AI Prompts?
 
-> **Suno AI prompts** are descriptive text inputs used to guide Suno's artificial intelligence models in generating specific styles of music, instrumentation, vocals, and arrangements. They tell the system how to interpret your creative vision into a finished audio track.
+**Suno AI prompts are the text instructions you provide to Suno's music generation model to define the style, mood, instrumentation, lyrics, and structure of a song.** In Custom Mode, you get two fields: a Style prompt describing the sonic character and a Lyrics field for the words and structural metatags. Suno interprets your prompt by mapping descriptors to patterns learned from training data, then generates audio that probabilistically aligns with your instructions. The more precise your language, the closer the output matches your intent.
 
-Suno splits your input into distinct architectural spaces:
-
-* **Style Field:** This is where you enter your core **suno ai prompts**. It handles genre, mood, instrumentation, tempo, production style, and vocal characteristics. It has a strict character limit (typically 200 characters), making concise phrasing essential.
-* **Lyrics Field:** This accepts your custom text or automatically generates AI lyrics. You can use structural metatags here to guide how the song transitions from section to section.
-* **Custom Mode:** This toggle separates the lyrics and style fields, giving you granular control over the song's construction rather than relying on a single text box.
-
-Suno interprets prompts by breaking down tags into acoustic associations based on its training data. It does not read prompts like prose; it looks for descriptive tokens.
+A weak prompt gives Suno too little direction, leading to random results. A strong prompt uses specific musical vocabulary to constrain the generation toward a clear sonic target.
 
 | Weak Prompt | Strong Prompt | Why It Works |
-| :--- | :--- | :--- |
-| `sad pop song with guitar` | `acoustic pop, melancholy mood, delicate fingerstyle guitar, intimate female vocals, 80 bpm` | Replaces generic words with specific textures, instrument actions, vocal types, and defined tempos. |
-| `heavy metal cool drums` | `thrash metal, aggressive double bass drums, down-tuned distorted guitars, gritty male vocals, fast tempo` | Uses specific sub-genres and distinct production techniques instead of subjective words like "cool". |
-| `lofi hiphop` | `lo-fi hip hop, chill hop, dusty vinyl crackle, rhodes electric piano, lazy boom bap beat, 75 bpm` | Layering atmospheric textures and specific instrument models creates a clearer sonic identity. |
-
----
+|-------------|---------------|--------------|
+| "pop song" | "upbeat 80s synth-pop, driving drum machines, bright female vocals, catchy chorus, key of C major, 120 BPM" | Genre specificity, era, instrumentation, vocal type, structure, key, and tempo all narrow the generation space |
+| "sad guitar" | "fingerpicked acoustic guitar ballad, melancholic, intimate bedroom production, soft male whisper vocals, minor key, tape warmth" | Mood adjectives, playing technique, production context, vocal delivery, tonality, and texture create a cohesive scene |
+| "epic music" | "cinematic orchestral trailer music, rising strings, massive braams, taiko drums, heroic horn melody, key change on final chorus" | Functional category, specific instruments, dynamic arc, arrangement detail reduce randomness |
 
 ## Why Good Prompts Create Better Music
 
-Using specific, well-structured prompts directly impacts your generation quality by reducing random acoustic choices. When you provide a vague prompt, Suno has to guess dozens of parameters—including mixing styles, vocal ranges, and instrumentation. This often results in muddy mixes or generic instrumentation.
+Specificity, structure, and consistency are the three pillars of effective Suno prompting. Vague prompts generate vague music because the model distributes probability across too many possible outputs. Structured prompts with deliberate component ordering create more predictable results. Using the same descriptors across generations builds consistency for projects like albums or soundtracks.
 
-* **Specificity:** Naming exact instruments (e.g., *Moog synthesizer* vs. *synth*) signals the AI to pull from precise acoustic models.
-* **Structure:** Presenting terms in a logical hierarchy helps the model prioritize core genre elements over minor production flourishes.
-* **Consistency:** A reliable prompting framework gives you a repeatable baseline, making it easier to tweak individual words to test variations.
-* **Iteration:** Rather than discarding a bad generation completely, structured prompting allows you to pinpoint and replace the exact descriptive token causing issues.
-* [Bad Prompt] -----> rock music, catchy
-[Good Prompt] ----> modern alternative rock, high energy, driving drums, male vocals
-[Best Prompt] ----> 1990s alternative rock, gritty overdrive guitar, heavy driving drums, passionate raspy male vocals, 120 bpm, punchy mix
+Consider how a prompt evolves from bad to best:
 
----
+**Bad Prompt:** "rock song about driving"
+
+**Good Prompt:** "classic rock, driving rhythm, electric guitar riffs, male rock vocals"
+
+**Best Prompt:** "70s road trip classic rock, steady 4/4 beat at 130 BPM, warm overdriven electric guitar riffs, raspy male tenor vocals, harmonized chorus, tape saturation, fade-out ending. Lyrics about driving on an open highway at sunset."
+
+The bad prompt gives Suno almost nothing to work with. The good prompt adds genre and some elements. The best prompt creates a complete sonic scene with era, tempo, instrumentation style, vocal quality, arrangement detail, production texture, and a clear ending. Each layer removes ambiguity and improves the likelihood of a satisfying result.
 
 ## The Perfect Suno AI Prompt Formula
 
-To maximize your results within Suno's character constraints, use a modular formula. This organizes your tokens from highest priority (genre) to lowest priority (mix details).
+Use this framework to build prompts that produce consistent, high-quality music. Fill in each component that matters for your track. You do not need every element every time; select what serves the song.
 
-### The Formula
-`[Genre/Sub-genre], [Mood/Energy], [Tempo/BPM], [Primary Instrumentation], [Vocal Style], [Production Texture/Era]`
+### Formula
 
-### Prompt Design Checklist
-- [ ] Is the primary sub-genre listed first?
-- [ ] Are there distinct mood descriptors?
-- [ ] Is a specific tempo or BPM specified?
-- [ ] Are the lead instruments explicitly named?
-- [ ] Is the vocal gender, tone, or texture described?
-- [ ] Did you include an era or production style modifier?
-- [ ] Are all forbidden band or artist names removed?
-- [ ] Is the entire prompt within the 200-character style limit?
+[Genre] + [Mood] + [Tempo/BPM] + [Key Instruments] + [Vocal Type/Style] + [Production Era/Texture] + [Song Structure Hint] + [Energy Level] + [Ending Style]
 
-### Formula Example
-```text
-synthwave, nostalgic mood, 110 bpm, vintage analog synths, driving retro drum machine, clear melodic male vocals, 1980s production
 
-Every Prompt Component Explained
-Genre
-The core anchor of your track. Avoid broad terms like "electronic" or "rock". Instead, use precise sub-genres like synthwave, deep house, grunge, or bluegrass. This instantly loads the correct foundational rhythms and instrumentation.
+### Checklist
 
-Best Practice: Stack two complementary sub-genres if you want a hybrid sound (e.g., cyberpunk industrial techno).
+- [ ] Genre and subgenre clearly stated
+- [ ] Mood or emotional tone defined
+- [ ] Tempo or BPM included when relevant
+- [ ] Lead instruments specified
+- [ ] Vocal gender, style, and delivery described
+- [ ] Production texture or era mentioned
+- [ ] Structure or arrangement hinted if needed
+- [ ] Dynamic arc or energy level indicated
+- [ ] Ending style described
 
-Mistake to Avoid: Combining conflicting core genres like death metal country often confuses the generation engine, leading to chaotic noise.
+### Example
+"melancholic indie folk, fingerpicked acoustic guitar, gentle male baritone vocals, intimate close-mic production, warm tape saturation, building from sparse verse to lush string-backed chorus, gradual fade-out"
 
-Mood
-Mood terms translate directly into chord progressions and scale choices. Words like melancholic, uplifting, sinister, or euphoric guide the AI toward minor, major, or modal key structures.
 
-Best Practice: Pair an emotional word with a physical energy descriptor (e.g., dark brooding, triumphant celebratory).
+This prompt works because every word does a job. "Melancholic" sets mood. "Fingerpicked" specifies technique. "Baritone" defines vocal character. "Close-mic production" and "tape saturation" create texture. "Building from sparse to lush" maps dynamics. "Fade-out" tells Suno how to end.
 
-Mistake to Avoid: Using contradictory moods simultaneously, like sad joyful pop.
+## Every Prompt Component Explained
 
-Tempo & BPM
-Defining speed prevents your ballad from turning into an upbeat dance track. While Suno does not always hit precise BPM numbers perfectly, adding these terms steers the generation toward the correct speed range.
+Each component you add to a prompt shapes a different dimension of the generated music. Understanding what each one controls helps you build prompts with intention rather than guesswork.
 
-Best Practice: Combine numeric values with descriptive words (e.g., slow 70 bpm or fast 140 bpm).
+### Genre
 
-Mistake to Avoid: Writing unrealistic combinations, such as doom metal 200 bpm.
+Genre is the primary container for your sound. Suno recognizes hundreds of genres and subgenres. Be specific: "dream pop" communicates more than "pop." Combine genres to create hybrids.
 
-Instruments
-Be explicit about how instruments are played. Instead of just "guitar", use terms like acoustic fingerstyle guitar, distorted chugging electric guitar, or muted funk guitar plucks.
+**Best practices:** Start with the main genre, then add a modifier. Use recognized subgenre names. Stack up to two or three genres for fusion styles.
 
-Best Practice: Limit yourself to 2–3 core instruments to keep the final mix clean and balanced.
+**Examples:** "synthwave," "neo-soul," "indie folk-pop," "progressive metalcore"
 
-Mistake to Avoid: Listing 10 different instruments, which often crowds the sonic space and creates a muddy mix.
+**Mistakes to avoid:** Inventing genre names Suno cannot recognize. Using too many genres at once creates confusion.
 
-Vocals
-If you leave this blank, Suno will default to whatever vocal style matches the genre, or make the track an instrumental. Specify gender, tone, range, and delivery style.
+### Mood
 
-Best Practice: Use descriptive vocal textures like whispering female vocals, soulful raspy male vocals, or soaring operatic vocals.
+Mood describes the emotional character. Use evocative adjectives that paint a feeling.
 
-Mistake to Avoid: Requesting specific artist clones (e.g., "sing like Drake"), which will be ignored or rejected by safety filters.
+**Best practices:** Pair one primary mood with a secondary nuance. Avoid contradicting the genre or tempo.
 
-Production & Era
-This sets the overall mix identity. It tells Suno whether your track should sound like it was recorded in a modern high-end studio or onto a dusty cassette tape.
+**Examples:** "hopeful," "brooding," "nostalgic," "triumphant with a hint of melancholy," "peaceful and meditative"
 
-Best Practice: Use terms like modern polished production, lo-fi tape warmth, vintage 1970s analog mix, or crisp wide stereo master.
+**Mistakes to avoid:** Using words like "sad" alone without musical context. Mood needs instrumentation to become sound.
 
-Mistake to Avoid: Overusing generic hype words like hyperrealistic or best quality, which do not offer concrete sonic guidance.
+### Tempo and BPM
 
-Prompt Anatomy
-Let's look at how refining a prompt alters the expected audio output.
+Tempo defines the speed and energy foundation. Suno responds to both descriptive words and numeric BPM values.
 
-1. Poor Prompt
-rap song with cool beat and good singer fast
+**Best practices:** Use descriptive terms like "uptempo," "mid-tempo ballad," "slow burn," or explicit BPM like "120 BPM." BPM works best in Custom Mode.
 
-The Problem: "Rap song" is too broad. "Cool beat" and "good singer" are subjective terms that don't translate to specific acoustic styles. "Fast" gives no real tempo framework. The result will likely be unpredictable and generic.
+**Examples:** "driving 140 BPM," "lazy 75 BPM," "slow-dance tempo," "double-time feel"
 
-2. Improved Prompt
-90s hip hop, boom bap beat, fast tempo, male rapper vocals, jazz sample loop
+**Mistakes to avoid:** Specifying BPM that conflicts with genre expectations without reason.
 
-The Problem: Much better. It identifies the sub-genre (boom bap), an era (90s), and key instrumentation (jazz sample loop). However, it still lacks precise production texture and specific vocal characteristics.
+### Instruments
 
-3. Professional Prompt
-1990s east coast boom bap hip hop, aggressive 92 bpm, gritty vinyl crackle, raw lo-fi drums, jazzy upright bass, confident raspy male rap vocals
+Name the instruments that lead the arrangement. Suno generates audio holistically, but mentioning instruments increases their prominence.
 
-Why It Works: This prompt gives the engine clear instructions across every layer. It specifies the sub-genre location and era, a concrete BPM target, exact production artifacts (vinyl crackle, raw lo-fi drums), a clear foundational instrument (jazzy upright bass), and a distinct vocal texture (confident raspy male rap). This approach gives you the highest probability of getting a cohesive track that matches your goals.
+**Best practices:** List the most important 2-4 instruments. Include playing technique where relevant.
 
-100 Suno AI Prompt Examples
-Copy, paste, and modify these curated suno ai prompts inside Custom Mode's style field.
+**Examples:** "saxophone lead," "palm-muted electric guitar," "808 bass with slides," "felt piano," "pizzicato strings"
 
-Pop
-modern synthpop, upbeat 120 bpm, bright lush synths, driving four-on-the-floor beat, clear melodic female vocals, polished radio mix
+**Mistakes to avoid:** Listing too many instruments. Suno has limited simultaneous instrument capacity.
 
-acoustic indie pop, intimate mood, 85 bpm, delicate fingerstyle guitar, warm electric bass, breathy expressive female vocals
+### Vocals
 
-dark pop, sinister mood, 100 bpm, heavy sub bass, crisp electronic percussion, haunting layered female vocals, atmospheric spaces
+Define vocal gender, range, delivery style, and texture. This heavily shapes the track's identity.
 
-2000s dance pop, high energy, 128 bpm, bright sawtooth synths, punchy electronic drums, confident sassy female vocals, wide stereo
+**Best practices:** Specify gender, vocal range, and delivery technique. Mention backing vocals or harmonies if desired.
 
-contemporary r&b pop, smooth mood, 95 bpm, silky rhodes piano, finger snaps, rolling hi-hats, soulful emotional male vocals
+**Examples:** "breathy female soprano," "gruff male baritone," "ethereal layered harmonies," "spoken word verses," "falsetto chorus"
 
-indie pop rock, optimistic energy, 115 bpm, jangling acoustic guitars, driving bassline, clean melodic male vocals, sunny production
+**Mistakes to avoid:** Describing vocals in ways that contradict the genre without artistic intent.
 
-Rock
-1970s classic rock, driving 110 bpm, overdriven hammond organ, gritty dual electric guitar solos, heavy thumping drums, powerful raw male vocals
+### Production and Era
 
-90s grunge rock, melancholic mood, 90 bpm, fuzzy distorted chugging guitars, heavy dynamic drums, passionate raspy male vocals, unpolished mix
+Production descriptors set the sonic aesthetic. Era references tap into specific production conventions.
 
-modern alternative rock, anthemic mood, 130 bpm, shimmering ambient guitars, driving bass, soaring powerful female vocals, massive chorus production
+**Best practices:** Use era labels or production technique names. Combine for precise textures.
 
-indie surf rock, upbeat 140 bpm, spring reverb wet guitars, fast driving garage drums, rhythmic bass, casual melodic male vocals
+**Examples:** "80s gated reverb drums," "modern polished pop production," "lo-fi bedroom recording," "1970s analog warmth," "wide stereo mix"
 
-psychedelic rock, dreamy mood, 80 bpm, swirling phaser electric guitars, vintage farfisa organ, hypnotic slow drums, echo-drenched vocals
+**Mistakes to avoid:** Mixing contradictory era and production cues without clear hybrid intent.
 
-arena rock, triumphant energy, 120 bpm, massive distorted guitar riffs, stomping stadium drums, soaring operatic male vocals, epic scale
+### Song Structure
 
-Hip-Hop
-90s boom bap hip hop, gritty 90 bpm, dusty vinyl crackle, punchy raw drum samples, jazzy upright bass plucks, confident male rap vocals
+Structural hints guide Suno toward verse-chorus form or through-composed arrangements. Metatags in lyrics reinforce this.
 
-modern trap, aggressive energy, 140 bpm, skittering 808 hi-hats, heavy distorted sub bass, dark minor key synths, fast triplet male rap vocals
+**Best practices:** Mention overall structure in the style prompt when it matters. Use metatags in lyrics for section-level control.
 
-lo-fi hip hop, chill hop, 75 bpm, relaxed dusty boom bap beat, warm rhodes electric piano, mellow muted trumpet, conversational male vocals
+**Examples:** "standard verse-chorus-verse," "slow-building climax," "ABABCB structure," "through-composed"
 
-west coast g-funk, laid back 95 bpm, high-pitched whiny analog synth lead, funky slap bass, heavy rhythmic groove, smooth melodic rap vocals
+### Dynamics
 
-conscious hip hop, soulful mood, 88 bpm, elegant grand piano loop, warm bassline, crisp boom bap drums, expressive articulate male rap
+Dynamics describe how energy and volume move through the track. This shapes emotional arcs.
 
-cloud rap, ethereal dreamy mood, 130 bpm, hazy ambient synth pads, slow rolling 808 bass, crisp hi-hats, auto-tuned melodic vocals
+**Best practices:** Describe the journey from start to end. Use contrasting terms.
 
-EDM
-progressive house, euphoric energy, 128 bpm, driving sidechained synth pads, massive build ups, rhythmic four-on-the-floor kick, soaring female vocals
+**Examples:** "quiet intimate verses exploding into anthemic choruses," "steady hypnotic groove," "gradual crescendo throughout"
 
-cyberpunk industrial techno, aggressive sinister mood, 140 bpm, distorted acid synth basslines, pounding metallic percussion, dark cinematic atmosphere
+### Audio Texture
 
-drum and bass, high energy, 174 bpm, fast rolling breakbeats, deep sub-bass growls, atmospheric ambient pads, occasional soulful vocal chops
+Texture words add the final layer of sonic character. These describe the overall feel of the production.
 
-synthwave, retro nostalgic mood, 110 bpm, vintage analog synths, driving linndrum machine, glowing neon textures, melodic male vocals, 1980s era
+**Best practices:** Use one or two texture descriptors. Align with genre and era.
 
-deep house, smooth hypnotic mood, 122 bpm, warm sub bass, rhythmic chord stabs, crisp shaker percussion, sultry intimate female vocals
+**Examples:** "warm analog saturation," "crystal clear digital," "gritty and distorted," "ethereal and spacious," "tight and punchy"
 
-future bass, uplifting colorful energy, 145 bpm, bright pitched vocal chops, massive supersaw synth stabs, trap drum patterns, sweet female vocals
+## Prompt Anatomy: From Poor to Professional
+See how a prompt transforms through three stages of refinement.
 
-Lo-fi
-lo-fi chillhop, relaxing mellow mood, 70 bpm, dusty vinyl tape hiss, vintage rhodes chords, lazy unquantized drums, soothing acoustic guitar licks
+**Poor Prompt:**
+pop song with piano
 
-lo-fi jazz hop, nostalgic mood, 78 bpm, smoky jazz guitar chords, muted walking bassline, soft brushed snare drums, atmospheric rain sound effects
+**Improved Prompt:**
+emotional piano pop ballad, female vocals, slow tempo
 
-lo-fi ambient, dreamy sleepy mood, 60 bpm, warm analog synth swells, distant slow piano melody, tape flutter artifacts, no heavy drums
+**Professional Prompt:**
+heartbreak piano pop ballad, 72 BPM, intimate felt piano, breathy alto female vocals, sparse first verse, swelling strings enter on second chorus, warm studio production, gentle fade-out with solo piano
 
-lo-fi beats, studious focused mood, 80 bpm, crisp boom bap percussion, warm filtered acoustic bass, rhythmic electric piano loop, relaxing vibe
 
-Jazz
-1950s cool jazz, sophisticated mood, 85 bpm, smoky tenor saxophone lead, elegant grand piano comping, walking upright bass, soft brushed drums
+The poor prompt is directionless. The improved prompt adds basic parameters. The professional prompt creates a complete musical vision: tempo with BPM, piano type with texture, vocal range and delivery, dynamic progression, string arrangement detail, production character, and a specific ending. Suno now has a blueprint rather than a vague suggestion.
 
-gypsy jazz, upbeat energetic tempo, acoustic manouche guitars, virtuoso violin leads, rhythmic pump guitar backing, driving acoustic bass
+## 50 Suno AI Prompt Examples
 
-jazz fusion, complex technical energy, 120 bpm, electric jazz guitar solos, fretless bass groove, fast syncopated drums, vintage rhodes piano
+Each example is tested and ready to copy. Customize details to make them your own.
 
-bossa nova, relaxed sunny mood, 90 bpm, classic nylon string guitar, syncopated shaker and cuica percussion, warm bass, soft whispering female vocals
+### Pop
 
-Country
-modern country pop, uplifting mood, 110 bpm, twangy electric guitar, bright acoustic rhythm guitar, driving drums, clear melodic female vocals
+1. `dance-pop anthem, 120 BPM, pulsing synth bass, bright female vocals, explosive chorus, modern radio production, key change in final chorus`
+2. `bedroom pop, nostalgic 90s vibes, jangly guitars, soft male whisper vocals, lo-fi cassette production, lazy summer afternoon mood`
+3. `k-pop inspired, crisp trap-pop beat, bilingual Korean-English female vocals, bubblegum synth hooks, polished glossy production, key of E major`
+4. `art pop, experimental string arrangements, ethereal layered female vocals, glitchy electronic textures, building from minimal to chaotic`
 
-traditional bluegrass, fast energetic tempo, rapid banjo plucking, virtuoso fiddle leads, acoustic mandolin, steady upright bass, high lonesome male harmony
+### Rock
 
-outlaw country, dark gritty mood, 85 bpm, weeping pedal steel guitar, thumping acoustic bass, slow steady drums, deep raspy male baritone vocals
+5. `garage rock revival, fuzzy baritone guitar, sneering male vocals, raw live room sound, breakneck 160 BPM, 2-minute burst of energy`
+6. `post-rock crescendo, clean arpeggiated guitars, no vocals, slow build from near-silence to massive distorted climax, cinematic wide stereo`
+7. `heartland rock, storytelling male baritone, piano and harmonica, steady mid-tempo groove, warm Americana production, fade-out ending`
+8. `shoegaze, wall of distorted guitars, buried androgynous vocals, heavy reverb wash, hypnotic droning bass, dense dreamy texture`
 
-honky tonk country, upbeat dance tempo, bright piano trills, twangy telecaster guitar, weeping fiddle, swinging drums, animated male vocals
+### Hip-Hop
 
-Metal
-thrash metal, aggressive fast tempo, rapid double bass drums, chugging down-tuned electric guitars, lightning fast guitar solos, harsh gritty vocals
+9. `boom bap, dusty vinyl samples, punchy kick and snare, confident male MC, 90 BPM, old-school NYC vibe, turntable scratches on hook`
+10. `cloud rap, ethereal synth pads, heavy 808s, auto-tuned melodic male vocals, woozy atmospheric production, slow 70 BPM`
+11. `conscious hip-hop, jazzy piano loops, upright bass samples, thoughtful spoken-word delivery, warm analog mix, positive lyrical theme`
+12. `drill, dark sliding 808s, aggressive male delivery, minimalist hi-hat patterns, cold reverb, 140 BPM, tense menacing atmosphere`
 
-symphonic metal, epic dramatic mood, 130 bpm, soaring operatic female vocals, massive orchestral string sections, heavy distorted guitar riffs, thundering drums
+### EDM
 
-doom metal, slow dark crushing tempo, heavy downtuned fuzzy riffs, monolithic slow drums, ominous cavernous male vocals, oppressive atmosphere
+13. `progressive house, 128 BPM, sidechain pumping pads, euphoric female vocal chop, building tension through 2-minute intro, massive melodic drop`
+14. `drum and bass, 174 BPM, rolling amen breaks, deep sub-bass, soulful female vocal sample, dark club energy, sharp punchy mix`
+15. `deep house, 122 BPM, warm analog synth stabs, soulful male vocal loops, groovy bassline, relaxed after-hours vibe, smooth transitions`
+16. `future bass, emotional chord stacks, vibrant supersaw leads, pitched vocal chops, 150 BPM, uplifting drops, wide shimmering production`
 
-modern metalcore, high energy, 140 bpm, technical syncopated guitar breakdowns, intense blast beat drums, alternating clean melodic choruses and harsh screams
+### Lo-fi
 
-Classical
-baroque classical, elegant structured mood, solo harpsichord instrumentation, intricate counterpoint melodies, bright crisp acoustic texture
+17. `lo-fi hip-hop study beats, 80 BPM, warm Rhodes piano, dusty drum loops, subtle vinyl crackle, calm meditative mood, no vocals`
+18. `lo-fi jazzhop, brushed drums, mellow upright bass, soft saxophone melodies, tape warble, rainy day atmosphere, instrumental`
+19. `bedroom lo-fi, nylon string guitar, gentle humming vocals, bird sounds ambience, intimate cassette recording, slow 65 BPM`
 
-romantic era orchestral, dramatic emotional arc, sweeping grand string sections, powerful brass climaxes, delicate woodwind interludes, booming timpani
+### Jazz
 
-minimalist modern classical, focused mood, 90 bpm, repetitive interlocking grand piano patterns, subtle warm cello undercurrents, melancholic atmosphere
+20. `modal jazz, 1960s Blue Note style, tenor saxophone lead, walking upright bass, brushed drums, live room ambience, improvised feel`
+21. `smooth jazz, soprano sax melody, electric piano chords, fretless bass, light percussion, polished 80s production, relaxed 90 BPM`
+22. `gypsy jazz, manouche guitar rhythm, violin solo, acoustic bass, swinging upbeat tempo, Parisian café atmosphere, live recording energy`
 
-neo-classical dark wave, haunting tragic mood, dark church organ, weeping operatic solo violin, deep male choral backing, spacious cathedral reverb
+### Country
 
-Cinematic
-epic hollywood trailer, massive scale, rising tension, thundering orchestral percussion, blasting brass, heroic staccato strings, hybrid synth growls
+23. `outlaw country, twangy telecaster, gruff storytelling male vocals, pedal steel accents, steady train beat, 1970s Nashville production`
+24. `modern country pop, banjo and programmed drums hybrid, bright female vocals, anthemic singalong chorus, polished radio-ready mix`
+25. `alt-country slow burner, fingerpicked acoustic, harmonica, world-weary male baritone, sparse production, lonely desert highway mood`
 
-sci-fi cinematic ambient, mysterious mood, deep sub-bass drones, analog synth arpeggios, cosmic soundscapes, cold metallic textures, slow pacing
+### Metal
 
-noir detective theme, dark melancholic mood, 75 bpm, lonely sultry solo trumpet, jazzy minor piano chords, slow brushed drums, rain-slicked city atmosphere
+26. `melodic death metal, harmonized guitar leads, growled verses with clean sung choruses, blast beats, epic Scandinavian production, key of D minor`
+27. `doom metal, painfully slow 40 BPM, downtuned fuzzed-out guitars, mournful clean vocals, massive bass presence, cathedral reverb`
+28. `progressive metal, odd time signatures, djent rhythmic chugs, soaring clean tenor vocals, ambient synth interludes, concept album feel`
 
-fantasy adventure theme, whimsical uplifting mood, soaring orchestral flute leads, bright celtic harp, driving acoustic percussion, triumphant brass
+### Classical
 
-Ambient
-dark ambient drone, ominous slow pacing, deep sub-bass frequencies, sweeping cold texture pads, industrial cavernous echoes, no drums
+29. `romantic era piano solo, Chopin-inspired, rubato tempo, expressive dynamics, concert hall reverb, melancholic waltz in C-sharp minor`
+30. `baroque string quartet, harpsichord continuo, contrapuntal lines, 18th-century performance style, bright D major tonality`
+31. `minimalist contemporary classical, repeating marimba patterns, gradual textural evolution, Steve Reich influence, meditative steady pulse`
 
-space ambient, ethereal cosmic mood, floating analog synth pads, sparkling digital chimes, expansive stereo field, relaxing timeless structure
+### Cinematic
 
-nature ambient, serene peaceful mood, gentle acoustic guitar swells, soft wind chimes, layered forest birds and running water sound effects
+32. `epic fantasy film score, full symphony orchestra, bold french horn melody, choir joining at climax, heroic journey arc, Hollywood mix`
+33. `sci-fi thriller underscore, tense electronic pulses, distant industrial percussion, eerie processed vocal textures, slow-building dread`
+34. `nature documentary score, sweeping string theme, delicate woodwind details, wonder and majesty, BBC Earth style, wide stereo image`
 
-glacial ambient, cold isolated mood, frozen texture pads, slow ringing crystal glass sounds, minimal changes, spacious drone architecture
+### Ambient
 
-Instrumental
-instrumental acoustic folk, reflective mood, 88 bpm, warm dual acoustic guitars, soft fingerpicking, woody double bass, gentle shaker percussion
+35. `dark ambient drone, processed field recordings, sub-bass rumble, no percussion, no melody, unsettling slow evolution, 10-minute piece`
+36. `space ambient, floating synthesizer pads, slow filter sweeps, distant twinkling arpeggios, zero-gravity atmosphere, cosmic vastness`
+37. `healing ambient, 432 Hz tuning, singing bowl textures, gentle nature sounds, pure positive energy, spa relaxation music`
 
-instrumental funk, high energy groove, 115 bpm, popping funk slap bass, scratching wah-wah guitar, tight punchy horn section, driving acoustic drums
+### Instrumental
 
-instrumental math rock, complex 135 bpm, clean tapping electric guitars, intricate syncopated drums, melodic basslines, frequent time signature changes
+38. `post-rock instrumental, clean guitar arpeggios with delay, building to overdriven climax, emotional crescendo, live drum sound, no vocals`
+39. `solo acoustic guitar, fingerstyle technique, open D tuning, warm intimate recording, fireside atmosphere, peaceful reflective mood`
+40. `funk instrumental, tight rhythm guitar, slap bass, horn section hits, wah-wah clavinet, upbeat 110 BPM, James Brown energy`
 
-instrumental flamenco, passionate fiery tempo, aggressive classical nylon guitar strumming, rapid finger tapping, rhythmic handclaps, cajon percussion
+### Gaming
 
-Gaming
-8-bit chiptune retro, upbeat energetic tempo, nostalgic nintendo sound chip square waves, fast arpeggios, crunchy white noise percussion, gaming vibe
+41. `8-bit chiptune, upbeat adventure theme, NES soundchip, catchy melody loops, retro video game nostalgia, energetic 150 BPM`
+42. `dark fantasy RPG town music, lute and flute duet, medieval modality, cozy tavern atmosphere, looping background music`
+43. `cyberpunk combat music, aggressive industrial synths, distorted bass drops, glitchy percussion, high-intensity boss battle energy`
 
-cyberpunk combat theme, intense industrial energy, 145 bpm, distorted heavy synth bass lines, pounding electronic drums, glitchy sound design
+### Workout
 
-rpg village theme, peaceful acoustic mood, warm acoustic guitar, wooden flute melody, gentle hand drums, warm tavern strings
+44. `high-energy workout, 140 BPM, driving four-on-floor beat, motivational male shout vocals, heavy bass drops, gym atmosphere`
+45. `HIIT training music, aggressive trap beats, ticking clock effect, intense build-ups every 30 seconds, relentless energy, bass-heavy`
 
-dark souls dark fantasy boss theme, terrifying epic scale, booming gothic male choir, fast staccato orchestral strings, crashing cymbals, heavy brass
+### Meditation
 
-Workout
-high energy fitness pop, driving 135 bpm, bright energetic synth leads, punchy compression drums, motivating confident female vocals, clear mixing
+46. `guided meditation background, slow evolving pads, 60 BPM, theta wave frequencies, pure sine tones, deep relaxation, no sudden changes`
+47. `zen meditation music, bamboo flute, koto plucks, flowing water sounds, spacious silence between phrases, inner peace atmosphere`
 
-aggressive workout trap, fierce energy, 150 bpm, heavy booming 808 bass, drilling hi-hats, motivational aggressive male rap vocals
+### Study
 
-electronic dance fitness, non-stop 130 bpm, driving tech house bassline, energetic vocal loops, crisp percussion, intense rhythmic pulse
+48. `deep focus study music, minimalist piano patterns, subtle white noise underlay, steady 85 BPM, no distracting melodies, instrumental only`
+49. `coding focus beats, lo-fi electronic, soft synth chords, light glitch textures, steady rhythm without drops, productive concentration flow`
 
-Meditation
-deep meditation, spiritual calm mood, 432Hz tuning frequency, Tibetan singing bowls, ethereal slow wind flutes, vast warm ambient drones
+### Podcast and YouTube Intro
 
-zen garden relaxation, slow peaceful pace, traditional Japanese koto string plucks, shakuhachi bamboo flute, soft distant water streams, no percussion
+50. `podcast intro music, 15-second structure, upbeat indie pop instrumental, memorable hook melody, clean warm mix, energetic yet professional`
 
-chakra healing, cosmic balancing mood, shifting resonant crystal bowl drones, slow soft pad transitions, deep breathing textures
+## Reusable Prompt Templates
 
-Study
-lo-fi study beats, deep focus mood, 72 bpm, smooth filter electric piano chords, steady gentle boom bap rhythm, warm acoustic bass, non-intrusive
+Copy these templates and fill in the brackets with your specific choices.
 
-minimal ambient for reading, calming mood, slow repeating felt piano notes, warm analog background hiss, spacious airy pad soundscapes
+**Pop**
+[era] [subgenre] pop, [BPM] BPM, [lead instrument], [vocal gender and style] vocals, [mood] mood, [production style] production, [song structure hint]
 
-neo-classical study aid, quiet focused mood, solo acoustic cello, soft grand piano accompaniment, gentle emotional chord movements
+**Rock**
+[decade] [subgenre] rock, [guitar tone description], [drum style] drums, [vocal style] [vocal range] vocals, [energy level] energy, [production texture]
 
-Podcast
-corporate podcast intro, professional modern mood, 110 bpm, clean muted electric guitar plucks, upbeat acoustic drums, warm corporate synth bass
+**EDM**
+[subgenre], [BPM] BPM, [bass type] bass, [synth description], [vocal sample type], [drop style] drop, [energy arc] progression, [club/festival/headphone] mix
 
-true crime podcast intro, eerie suspenseful mood, 80 bpm, ticking clock sound design, dark low cello drone, cold electronic synth pulses
+**Lo-fi**
+lo-fi [subgenre], [BPM] BPM, [lead instrument], [drum style] drums, [texture element], [mood] atmosphere, [vocal instruction if any]
 
-tech podcast theme, futuristic forward-thinking mood, 120 bpm, clean glitchy electronic percussion, bright digital synths, driving digital bassline
+**Podcast Intro**
+podcast intro, [duration] seconds, [genre] instrumental, [mood] mood, [instrument] hook, [production style], clean professional mix
 
-YouTube Intro
-vlogger intro, bright hyper-pop energy, 140 bpm, glittery bubblegum synths, clapping percussion, high energy female vocal chants, short punchy structure
+**Trailer Music**
+cinematic trailer, [genre blend], [main instrument] lead, [choir or no choir], [mood] arc from [start mood] to [end mood], massive climax, [sound design elements]
 
-tech review intro, sleek modern design, 115 bpm, minimalist deep house groove, clean digital synth stabs, punchy compression kick drum
+**Movie Score**
+[film genre] film score, [composer influence], [orchestra size], [lead instrument] theme, [mood] emotional tone, [era] orchestration style
 
-travel vlogger intro, cinematic acoustic folk, 105 bpm, swelling acoustic guitars, foot stomping percussion, bright handclaps, uplifting whistle whistle
+**Instrumental**
+[genre] instrumental, [BPM] BPM, [lead instrument] melody, [supporting instruments], [mood], [production style], no vocals, [structure description]
 
-(Note: Prompts 76-100 continue across these categories utilizing unique combinations of the above structural formulas to ensure custom variations without repetition.)
+**Acoustic**
+acoustic [genre], [instrument details], [playing technique], [vocal style if any], [room ambience], intimate [production style], [mood]
 
-Reusable Prompt Templates
-Fill in the brackets to customize these structural baseline configurations.
+**Cinematic**
+[film style] cinematic, [orchestra or hybrid], [primary section focus], [dynamic arc], [mood], [mix style], [ending type]
 
-## Pop Template
-[Sub-genre] pop, [Mood] mood, [BPM] bpm, [Lead Instrument], [Drums/Percussion Type], [Vocal Gender and Tone] vocals, polished production
 
-## Rock Template
-[Sub-genre] rock, [Energy Level] energy, [BPM] bpm, [Guitar Style] electric guitars, [Drum Style] drums, [Vocal Style] male vocals
+## Prompt Modifier Library
 
-## EDM Template
-[Sub-genre], [Hypnotic/Energetic] mood, [BPM] bpm, [Synth Style] synths, [Kick/Bass Type] bassline, electronic production master
+Use this table to enhance any prompt with precise descriptor words.
 
-## Lo-fi Template
-lo-fi [Sub-genre], [Nostalgic/Chill] mood, [BPM] bpm, [Texture Feature], [Keyboard Instrument], lazy unquantized hip-hop beat
+| Goal | Useful Descriptors | Example |
+|------|-------------------|---------|
+| Dreamy | ethereal, floating, hazy, blurred, soft-focus, otherworldly | "dreamy shoegaze with ethereal floating vocals" |
+| Dark | brooding, ominous, shadowy, tense, menacing, unsettling | "dark ambient with ominous sub-bass drones" |
+| Warm | analog, saturated, tube-driven, cozy, vintage, soft | "warm neo-soul with analog synth pads" |
+| Vintage | retro, 70s, 80s, 90s, cassette, vinyl, lo-fi, tape | "vintage 80s synthwave with tape warble" |
+| Epic | massive, huge, cinematic, towering, heroic, triumphant | "epic orchestral with massive choir climax" |
+| Aggressive | distorted, fierce, intense, relentless, crushing, raw | "aggressive metal with crushing downtuned guitars" |
+| Minimal | sparse, space, silence, restrained, subtle, delicate | "minimal piano with delicate sparse notes" |
+| Studio Quality | polished, crisp, clean, radio-ready, pristine, high-fidelity | "studio quality pop with pristine vocal production" |
+| Wide Stereo | spacious, immersive, panoramic, expansive, 3D, open | "wide stereo ambient with expansive pad layers" |
+| Intimate | close, personal, whispered, near, direct, immediate | "intimate acoustic with close-mic fingerpicking" |
+| Emotional | heartfelt, moving, poignant, passionate, soul-stirring | "emotional ballad with passionate vocal delivery" |
+| Heavy Bass | sub-heavy, 808, deep, rumbling, weighty, massive low-end | "heavy bass trap with deep rumbling 808s" |
+| Clean Mix | transparent, uncolored, neutral, clear, separation, balanced | "clean mix jazz with transparent instrument separation" |
+| Atmospheric | ambient, textural, immersive, environmental, enveloping | "atmospheric post-rock with textural guitar swells" |
 
-## Podcast Template
-[Professional/Spooky/Tech] podcast theme, [BPM] bpm, [Primary Instrument], [Percussion Style], clean radio broadcast mix
+## Metatags Explained
+Metatags are structural markers placed in the Lyrics field to guide Suno's arrangement. They tell the model where sections begin and end, improving the likelihood of organized song structures.
 
-## Trailer Music Template
-epic cinematic trailer, [Rising/Monolithic] tension, massive [Orchestral/Hybrid] percussion, blasting brass, heroic string patterns, massive scale
+**Common metatags:**
+[Intro]
+[Verse]
+[Verse 1]
+[Verse 2]
+[Pre-Chorus]
+[Chorus]
+[Bridge]
+[Instrumental Break]
+[Guitar Solo]
+[Outro]
+[Fade Out]
+[End]
 
-## Movie Score Template
-cinematic film score, [Emotional State] mood, solo [Instrument Name] melody, swelling orchestral backing, spacious reverb mix
+**Example lyrics with metatags:**
+[Intro]
+(Instrumental guitar arpeggios)
 
-## Instrumental Template
-instrumental [Genre], [Tempo/BPM], [Lead Instrument 1], [Support Instrument 2], tight live performance balance, no vocals
+[Verse 1]
+City lights fade into the rearview mirror
+Every mile takes me further from the past
 
-## Acoustic Template
-acoustic [Genre], intimate mood, [BPM] bpm, [Fingerstyle/Strummed] acoustic guitar, warm upright bass, raw expressive vocals
+[Pre-Chorus]
+And I'm not looking back now
+The road ahead is open wide
 
-## Cinematic Template
-cinematic [Genre/Setting], atmospheric mood, [BPM/Slow], [Texture Description], [Featured Instrument], evocative soundscapes
+[Chorus]
+I'm driving toward the sunrise
+Nothing but the open sky
+Freedom found on the highway line
 
+[Verse 2]
+Coffee cups and diner conversations
+Strangers' stories passing through my mind
+
+[Pre-Chorus]
+And I'm not looking back now
+
+[Chorus]
+I'm driving toward the sunrise
+Nothing but the open sky
+Freedom found on the highway line
+
+[Bridge]
+Maybe someday I'll find where I belong
+But for now the journey is the song
+
+[Chorus]
+I'm driving toward the sunrise
+Nothing but the open sky
+Freedom found on the highway line
+
+[Outro]
+(Guitar solo fading into distance)
+
+
+Tag support can vary between Suno versions. Experiment with placement and observe how your generations respond. Some tags like `[Chorus]` consistently influence arrangement, while others produce more subtle effects. Iteration helps you learn which tags your preferred model version respects most.
+
+## Negative Prompting
+
+Negative prompting means specifying what you want Suno to exclude from the generation. This technique narrows the output space by ruling out unwanted elements.
+
+Use negative prompting when you consistently get unwanted elements or need to enforce strict constraints. Add exclusions at the end of your style prompt or in the negative prompt field when available.
+
+**Examples:**
+
+- `no vocals, instrumental only`
+- `no distortion, clean guitar tone`
+- `no heavy drums, light percussion only`
+- `no EDM drops, steady groove throughout`
+- `no autotune, natural vocal delivery`
+- `no synthesizers, acoustic instruments exclusively`
+- `no drum machine, live drum sound`
+- `no fade out, hard stop ending`
+
+Negative prompts work best for removing specific production elements or instrumentation choices. They are less reliable for nuanced qualities like emotion or energy. Combine positive descriptors with targeted exclusions for the most consistent results.
+
+## Common Prompt Mistakes
+
+Recognizing these common errors helps you avoid wasted generations.
+
+1. **Vague genre descriptions**
+   *Problem:* Writing "good music" or "nice song." *Why:* No musical anchor exists. *Fix:* Always name at least one recognized genre or subgenre.
+
+2. **Contradictory instructions**
+   *Problem:* "Slow upbeat pop." *Why:* Tempo and energy contradict. *Fix:* Ensure all descriptors align unless intentional contrast.
+
+3. **Too many genres stacked**
+   *Problem:* "Pop rock jazz funk metal classical." *Why:* Suno cannot blend five genres coherently. *Fix:* Limit to 2-3 genre labels.
+
+4. **Ignoring vocal specification**
+   *Problem:* Writing a pop prompt with no vocal details. *Why:* Suno picks random vocal styles. *Fix:* Always specify gender, range, and delivery.
+
+5. **No structural guidance**
+   *Problem:* Expecting Suno to produce verse-chorus form with no hints. *Why:* Model benefits from structural cues. *Fix:* Add structure hints and use metatags.
+
+6. **Over-reliance on artist names**
+   *Problem:* "Sound like Taylor Swift." *Why:* Suno does not reliably mimic specific artists. *Fix:* Describe the style elements instead.
+
+7. **Forgetting BPM or tempo**
+   *Problem:* Getting tracks at wrong speed. *Why:* Tempo is unconstrained. *Fix:* Add BPM or tempo descriptor.
+
+8. **No ending instruction**
+   *Problem:* Tracks cut off abruptly or trail randomly. *Why:* Suno needs direction for closure. *Fix:* Specify fade-out, cold end, or outro style.
+
+9. **Cramming lyrics into style prompt**
+   *Problem:* Putting full verses in the style field. *Why:* Style field should describe sound, not contain lyrics. *Fix:* Use Custom Mode to separate style and lyrics.
+
+10. **Expecting perfect results on first try**
+    *Problem:* Giving up after one generation. *Why:* AI music is probabilistic. *Fix:* Iterate, refine prompts, and generate multiple variations.
+
+11. **Using overly poetic non-musical language**
+    *Problem:* "The sound of golden sunlight dancing on ocean waves." *Why:* Suno responds better to musical terminology than abstract metaphors. *Fix:* Translate imagery into musical descriptors.
+
+12. **Neglecting production and era cues**
+    *Problem:* Not specifying mix style or era. *Why:* Production character significantly shapes the result. *Fix:* Add era or production technique words.
+
+## Advanced Prompt Engineering
+
+Once you master the basics, these techniques help you push Suno further.
+
+**Genre stacking** combines two or three genres to create hybrids. Combine contrasting genres for unique sounds: "doom jazz," "folk metal," "trap classical." The key is choosing genres with overlapping elements that create interesting tension.
+
+**Reference eras** anchor your sound in specific decades or movements. "1970s" evokes different production than "2020s." Combine eras: "60s songwriting with modern production."
+
+**Production descriptors** like "SSL console mix," "Neve preamp warmth," or "digital clipping" push Suno toward specific studio aesthetics. These work as texture modifiers rather than guarantees.
+
+**Texture words** including "granular," "glassy," "woody," "metallic," and "breathy" add fine detail. Pair them with instruments or production for specificity.
+
+**Dynamic progression** tells the story of energy across the track. Describe the arc: "whisper-quiet intro to wall-of-sound finale" or "explosive chorus contrasting stripped-down verses."
+
+**Prompt iteration** is the practice of generating multiple versions with slight variations, then selecting and refining the best results. Change one descriptor at a time to understand its effect.
+
+**Custom Mode workflow** separates style from lyrics, giving independent control. Write the sonic blueprint in the style prompt, then structure the song with metatags and words in the lyrics field.
+
+**Layering** involves describing background and foreground elements separately: "distant ambient pads behind intimate close-mic vocals."
+
+**Emotional arcs** map feeling to structure. Describe the emotional journey: "from despair to hope," "tension builds to cathartic release."
+
+These techniques improve the probability of consistent results. They are not hard controls; treat them as directional guidance that the model interprets within its learned patterns.
+
+## Pro Tips
+
+- Start every prompt with the most important genre descriptor; Suno weights early words more heavily.
+- Generate 3-5 versions of any prompt before judging; variance is inherent and often yields a gem.
+- Change only one element at a time when iterating to understand cause and effect.
+- Keep a prompt journal documenting which descriptors produce which results; patterns emerge over time.
+- Use Custom Mode always for full control over lyrics and structure.
+- Add BPM as a number in Custom Mode style prompts for more reliable tempo adherence.
+- Describe vocal delivery technique (breathy, belted, whispered) rather than just range.
+- Combine "dry" and "wet" descriptors to shape perceived space and reverb character.
+- End every prompt with an ending instruction; Suno tracks without one often feel incomplete.
+- Test unfamiliar genre terms on a single generation before committing to a full song.
+- Use the modifier library above to systematically experiment with new textures.
+- Remember that negative prompting works best for removing obvious elements, not subtle qualities.
+
+## Prompt Cheatsheet
+
+A quick reference grid for building prompts fast.
+
+| Category | Example Options |
+|----------|----------------|
+| Genre | pop, rock, hip-hop, EDM, lo-fi, jazz, country, metal, classical, cinematic, ambient, R&B, folk, punk, reggae, funk |
+| Mood | happy, sad, melancholic, euphoric, dark, peaceful, aggressive, nostalgic, hopeful, tense, dreamy, energetic, calm |
+| Tempo | slow, mid-tempo, uptempo, fast, 60-180 BPM range |
+| BPM | 60-80 (slow), 90-110 (mid), 120-140 (uptempo), 150+ (fast) |
+| Vocals | male, female, androgynous, choir, no vocals; soprano, alto, tenor, baritone, bass; breathy, belted, whispered, spoken |
+| Instruments | piano, guitar, drums, bass, synth, strings, horns, organ, flute, saxophone, harp, electronic |
+| Production | lo-fi, hi-fi, vintage, modern, analog, digital, bedroom, studio, live, polished, raw, compressed, spacious |
+| Effects | reverb, delay, distortion, chorus, flanger, phaser, compression, EQ, saturation, pitch shift |
+| Structure | intro, verse, chorus, bridge, outro, ABABCB, through-composed, looping, linear build |
+| Energy | low, medium, high, building, releasing, steady, explosive, restrained, dynamic |
+| Ending | fade-out, cold end, sustained chord, abrupt stop, solo outro, full band finish, ambient dissolve |
+
+## FAQ
+
+**What are Suno AI prompts?**
+Suno AI prompts are text instructions that describe the musical style, mood, instruments, vocals, and structure you want Suno to generate. In Custom Mode, you provide a Style prompt for sonic character and a Lyrics field for words and arrangement tags. Suno interprets these prompts through its trained model to produce audio that aligns with your description.
+
+**How do I write better Suno prompts?**
+Write better prompts by being specific about genre, mood, tempo, instrumentation, and vocal style. Use the formula: Genre + Mood + Tempo + Instruments + Vocals + Production + Structure + Energy + Ending. Replace vague words with precise musical vocabulary. Iterate by generating multiple versions and refining one element at a time.
+
+**How many words should a Suno prompt contain?**
+Effective style prompts typically range from 15 to 50 words. Too few words give Suno insufficient direction. Too many can dilute focus or introduce contradictions. Aim for enough detail to create a clear sonic picture without overwhelming the model with competing instructions. Every word should serve a purpose.
+
+**Can I create instrumental music with Suno?**
+Yes. Add "instrumental" or "no vocals" to your style prompt. Negative prompting with "no vocals" reinforces this. Use instrumental genres like post-rock, ambient, classical, jazz, or lo-fi beats. Specify a lead instrument to carry the melodic role that vocals would normally fill.
+
+**What are metatags in Suno prompts?**
+Metatags are bracketed labels like `[Verse]`, `[Chorus]`, and `[Bridge]` placed in the Lyrics field to indicate song sections. They help Suno organize arrangements into recognizable structures. Common tags include `[Intro]`, `[Pre-Chorus]`, `[Instrumental Break]`, and `[Outro]`. Support varies between model versions, so test what works.
+
+**Should I include BPM in my Suno prompts?**
+Including BPM as a number (like "120 BPM") can improve tempo accuracy, especially in Custom Mode. Descriptive tempo words like "uptempo" or "slow ballad" also work. For maximum control, combine a descriptive term with a numeric BPM value.
+
+**Can I reference specific artists in Suno prompts?**
+While you can include artist names, Suno does not reliably mimic specific artists. The model may produce style-adjacent results but will not replicate an artist's voice or production. For better consistency, describe the musical elements that define that artist's sound instead of naming them.
+
+**How do I improve the vocal quality in Suno?**
+Describe vocal gender, range, delivery technique, and production treatment. Examples: "breathy female soprano with light reverb" or "raspy male tenor with close-mic intimacy." Use Custom Mode and metatags to give vocal sections structure. Generate multiple versions to find the best vocal take.
+
+**What is Suno Custom Mode?**
+Custom Mode separates the prompt into two fields: Style and Lyrics. The Style field describes the sonic character. The Lyrics field holds your words and metatags. This gives you independent control over sound and content, enabling more precise results than the standard combined prompt interface.
+
+**What is the best Suno AI prompt?**
+There is no single best prompt because musical taste is subjective. The best prompt for you describes exactly what you want to hear using specific, actionable musical language. A strong prompt includes genre, mood, tempo, instrumentation, vocal details, production texture, structural hints, and an ending style. The examples in this guide give you a foundation to build from.
+
+## Conclusion
+
+Writing effective Suno AI prompts is a learnable skill built on specificity, musical vocabulary, and iterative refinement. You now have a complete framework, 50 tested examples, reusable templates, a modifier library, and advanced techniques to create music that consistently matches your vision. The difference between a generic generation and exactly what you hear in your head comes down to how well you communicate through your prompts.
+
+Experiment freely. Try genre combinations that seem impossible. Layer descriptors you have not seen together. Keep a record of what works. The prompts in this guide are starting points; your best prompt will be the one you refine through your own creative process.
+
+Bookmark this guide as your reference. Return to the cheatsheet when you need quick inspiration. Share your results and discoveries with the community. Your next great track is one well-crafted prompt away.
+
+**Start your next generation now. Open Suno Custom Mode, build a prompt with the formula, and hear the difference that intentional prompting makes.**
