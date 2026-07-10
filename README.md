@@ -174,8 +174,9 @@ emotional piano pop ballad, female vocals, slow tempo
 **Professional Prompt:**
 heartbreak piano pop ballad, 72 BPM, intimate felt piano, breathy alto female vocals, sparse first verse, swelling strings enter on second chorus, warm studio production, gentle fade-out with solo piano
 
-
 The poor prompt is directionless. The improved prompt adds basic parameters. The professional prompt creates a complete musical vision: tempo with BPM, piano type with texture, vocal range and delivery, dynamic progression, string arrangement detail, production character, and a specific ending. Suno now has a blueprint rather than a vague suggestion.
+
+**🚀 Want 25,000+ Ready-to-Use Prompts?** Skip the guesswork with the [Suno AI Prompts Library](https://sevensky.gumroad.com/) — a massive collection of 25,000+ AI music prompts covering every genre, mood, and style imaginable. Perfect for creators who want instant inspiration.
 
 ## 50 Suno AI Prompt Examples
 
